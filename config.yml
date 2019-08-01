@@ -11,7 +11,7 @@ steps:
     actions:
       - type: createIssue
         title: New Issue
-        body: an-issue.md
+        body: README.md
         # Store the response for this new issue by assigning an action_id
         action_id: new_issue
 
@@ -20,7 +20,7 @@ steps:
 
         # Respond in the issue the user just commented on
       - type: respond
-        with: a-response.md
+        with: README.md
         # Include a `data` object to provide some template variables
         data:
           # Reference the response of the `new_issue` action
