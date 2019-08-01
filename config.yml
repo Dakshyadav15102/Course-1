@@ -7,6 +7,7 @@ template:
 steps:
   - title: Comment on an issue
     event: issue_comment.created
+    description: hellow
     actions:
       - type: createIssue
         title: New Issue
