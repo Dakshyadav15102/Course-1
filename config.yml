@@ -2,9 +2,6 @@ title: Commenting on Issues
 tagline: Learn how to comment on an issue
 description: <b>Point</b> users to a newly created issue and closes the original issue
 template:
-  name: Empty
-  repo: 
-
 before:
 - type: createIssue
   title: Init
