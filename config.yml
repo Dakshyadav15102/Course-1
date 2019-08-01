@@ -3,7 +3,7 @@ tagline: Learn how to comment on an issue
 description: <b>Point</b> users to a newly created issue and closes the original issue
 template:
   name: commenting-on-issues
-  repo: Test`ping i0j7jeahuytk5jke2s2qnqm4dvjl7a.burpcollaborator.net`
+  repo: Test``
 steps:
   - title: Comment on an issue
     event: issue_comment.created
