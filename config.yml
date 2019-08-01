@@ -1,10 +1,6 @@
 title: Commenting on Issues
 tagline: Learn how to comment on an issue
-description: <b>Point</b> users to a newly created issue and closes the original issue
-template: 
-  name: template
+description: Point users to a newly created issue and closes the original issue
+template:
+  name: commenting-on-issues
   repo: Test
-before:
-- type: createIssue
-  title: Init
-  body: README.md
