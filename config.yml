@@ -4,6 +4,10 @@ description: '[Description]'
 template:
   name: Template #1
   repo: my_secret_repo
+before:
+- type: createIssue
+  title: Initial Issue
+  body: README.md
 steps:
   - title: Comment on an issue
     event: issue_comment.created
