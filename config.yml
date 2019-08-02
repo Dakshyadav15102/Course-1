@@ -3,11 +3,8 @@ tagline: '[Tagline]'
 description: '[Description]'
 template:
   name: 'Course #1'
-  repo: my_secret_repo
+  repo: Course
 before:
-- type: createIssue
-  title: Initial Issue
-  body: issue.md
 steps:
   - title: Comment on an issue
     event: issue_comment.created
@@ -19,14 +16,3 @@ steps:
         body: README.md
         # Store the response for this new issue by assigning an action_id
         action_id: new_issue
-
-        # Close the issue the user just commented on
-      - type: closeIssue
-
-        # Respond in the issue the user just commented on
-      - type: respond
-        with: README.md
-        # Include a `data` object to provide some template variables
-        data:
-          # Reference the response of the `new_issue` action
-          nextIssueUrl: '%actions.new_issue.data.html_url%'
