@@ -1,1 +1,1 @@
-{{ context }}
+{{ user.login }} {{ user }}
