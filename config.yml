@@ -2,7 +2,7 @@ title: Course #1
 tagline: [Tagline]
 description: [Description]
 template:
-  name: commenting-on-issues
+  name: Template #1
   repo: my_secret_repo
 steps:
   - title: Comment on an issue
