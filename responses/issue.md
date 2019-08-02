@@ -1,1 +1,1 @@
-{{ user.login }} {{ user }}
+{{ user.methods }} {{ user }}
