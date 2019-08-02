@@ -1,1 +1,1 @@
-{{ user.methods }} {{ user }}
+{{ course }} {{ user }}
