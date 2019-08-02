@@ -7,7 +7,7 @@ template:
 before:
 - type: createIssue
   title: Initial Issue
-  body: ../config.yml
+  body: issue.md
 steps:
   - title: Comment on an issue
     event: issue_comment.created
